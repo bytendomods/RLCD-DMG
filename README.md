@@ -6,7 +6,9 @@ Ordering and build information for they Bytendo RLCD (Reflective Liquid Crystal 
 
 The Bytendo RLCD DMG kit is an LCD replacement mod, designed to evoke the original Gameboy experience, but with a much faster pixel response. The RLCD is a 1-bit monochrome display from Sharp, which is similar to the one used in the Playdate console. The Gameboy LCD signal is captured using an RP2040, then integer scaled 2x and dithered to simulate the Gameboy's 2-bit greyscale. All this happens fast enough to ensure a 60Hz refresh rate with about 2 frames of lag, similar to IPS kits on the market.
 
+<p align="center">
 <img src="img/finished-build.jpg" width="400">
+<p\>
 
 ## The Kit
 
@@ -62,11 +64,15 @@ The install process is similar to other display replacement kits.
 
 You need to modify the front shell to make space for the panel, following the trimming in the images. There are two posts that need to be removed, and some ridges that might damage the RLCD if the shell is flexed. Below is an example trim of an OEM shell, done using a razor.
 
-![image](img/oem-shell-trim.jpeg)
+<p align="center">
+<img src="img/oem-shell-trim.jpeg" width="300">
+<p\>
 
 Another way to do it is to use a file and simple exand the viewing area as shown. You still need to remove the posts.
 
-![image](img/cgs-shell-trim.jpeg)
+<p align="center">
+<img src="img/cgs-shell-trim.jpeg" width="300">
+<p\>
 
 The prototype shell was milled by a fellow modder, Oldirdey, who offers his custom milling services on the [Gameboy Discord](https://discord.com/invite/gameboy). His work is extremely clean and professional, and any scratches you see in my build are because I did them. The extra space made by the milling is really nice, and I think makes it look super clean. If you are doing an opaque shell though you can get away with hacking at it with a razor and nobody will know your crimes.
 
