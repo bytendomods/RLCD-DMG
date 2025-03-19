@@ -6,7 +6,7 @@ Ordering and build information for they Bytendo RLCD (Reflective Liquid Crystal 
 
 The Bytendo RLCD DMG kit is an LCD replacement mod, designed to evoke the original Gameboy experience, but with a much faster pixel response. The RLCD is a 1-bit monochrome display from Sharp, which is similar to the one used in the Playdate console. The Gameboy LCD signal is captured using an RP2040, then integer scaled 2x and dithered to simulate the Gameboy's 2-bit greyscale. All this happens fast enough to ensure a 60Hz refresh rate with about 2 frames of lag, similar to IPS kits on the market.
 
-<p align="center">
+<p align="right">
 <img src="img/finished-build.jpg" width="400">
 <p\>
 
@@ -83,14 +83,33 @@ The RLCD is extremely delicate, and the ribbon is easy to rip off. All of the pa
 * Clean your workspace so it is free from debris, or anything that might put pressure on the RLCD
 * Place a soft lint free cloth down on your work space
 * Place thin double sided tap at the of and bottom of the bracket. There should be just enough width for 2-3 mm wide tape.
+
+<p align="center">
+<img src="img/bracket-tape.jpeg" width="300">
+<p\>
+
 * Remove only the back plastic film on the RLCD. Leave the front one on.
+
+<p align="center">
+<img src="img/rlcd-film-peel.jpeg" width="300">
+<p\>
+
 * Align the top of the panel to the top bracket ridge. Gently lay down the panel so the top and bottom adhere well.
 * If you attempt to remove the panel once the tape is in place, it's likely to crack the panel. I've removed a panel with a hairdryer and lots of patience.
+
+<p align="center">
+<img src="img/secured-panel.jpeg" width="300">
+<p\>
+
 * Flip the bracket so that is RLCD down on the soft cloth. Be sure not to put pressure on the panel.
 * Attach the IPS ribbon to the driver board first.
 * The PCB slides into the bracket from the "top" to the "bottom". Once inserted, you can optionally secure it with a little bit of kapton tape. It may rattle around a little if you don't.
-* Bend the RLCD ribbon just enough to slide into the FPC on the driver board. Secure the FPC lock.
+* Bend the RLCD ribbon just enough to slide into the FPC on the driver board and secure the FPC lock.
 * Leave the plastic protection film on the front of the RLCD.
+
+<p align="center">
+<img src="img/secured-ribbons.jpeg" width="300">
+<p\>
 
 ## Testing the DMG connection
 
@@ -98,7 +117,7 @@ With the RLCD panel and driver PCB mounted, it's time to test the connections.
 
 TODO: Image of the test setup
 
-The RLCD will show a bit of noise (random pixels) when it boots, then it will quickly clear and show the black frame. This means the driver board has booted and is running properly. If you don't quickly see the normal "Nintento" logo, that means the driver board isn't getting a clean GB LCD signal. Usually this is an issue with the 21 pin ribbon from the CPU to the button board. I've found they fail over time with repeated insertions, so be careful. Try reseating this ribbon cable first.
+The RLCD will show a bit of noise (random pixels) when it boots, then it will quickly clear and show a black frame. This means the driver board has booted and is running properly. If you don't quickly see the normal "Nintento" logo, that means the driver board isn't getting a clean GB LCD signal. Usually this is an issue with the 21 pin ribbon from the CPU to the button board. I've found they fail over time with repeated insertions, so be careful. Try reseating this ribbon cable first.
 
 If you see nothing on the RLCD, no noise or anything, then either the board hasn't booted or the RLCD isn't connected properly. Check both the RLCD ribbon and the input to the driver board from the GB.
 
