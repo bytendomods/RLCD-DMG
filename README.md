@@ -23,7 +23,7 @@ The Bytendo RLCD DMG kit is an LCD replacement mod, designed to evoke the origin
 > * **The display is monochrome.** It's normally "white" with black pixels. Greyscale is simulated with dithering
 > * The display area is **smaller than the OEM** display
 > * **There is no backlight**. It's a purely reflective LCD, old school style
-> * You must use an **aftermarket power board**, like the [DMGC PWR](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-PWR-01) 
+> * You must use an **aftermarket power board**, like the [DMGC PWR](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-PWR-01). These are difficult to build and require QFN soldering. At the moment you can buy one pre-built from [InsideGadgets](https://shop.insidegadgets.com/product/dmgc-power-board/)
 > * The install requires **shell modification**, similar to Q5 installs. Details below
 
 The RLCDs are currently available on [Aliexpress](https://www.aliexpress.com/item/1005006990424168.html?spm=a2g0o.productlist.main.5.4d197730mSHqFq&algo_pvid=dea5008d-0f81-494d-aab5-6f4624ba662d&algo_exp_id=dea5008d-0f81-494d-aab5-6f4624ba662d-2&pdp_npi=4%40dis%21USD%2132.92%2132.92%21%21%2132.92%2132.92%21%40211b813f17299659042513636eacc5%2112000038968470241%21sea%21CH%212760562420%21X&curPageLogUid=bwWWYRypVC4U&utparam-url=scene%3Asearch%7Cquery_from%3A) and I've also seen them on Ebay. They are extremely thin and liable to break if handled improperly. Please read the entire README to minimize risk.
