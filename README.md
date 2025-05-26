@@ -15,7 +15,6 @@ The Bytendo RLCD DMG kit is an LCD replacement mod, designed to evoke the origin
 * Driver PCB
 * Mounting bracket
 * 18p 1mm FPC (FP button board to driver)
-* BYT-DEBUG board for flashing the driver
 * 10p 0.5mm FPC for debug board
 
 > [!IMPORTANT]
