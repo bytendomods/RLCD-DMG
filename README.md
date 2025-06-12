@@ -1,6 +1,6 @@
 # RLCD-DMG
 
-Build information for they Bytendo RLCD (Reflective Liquid Crystal Display) DMG display replacement kit. Interested in a kit? Email mailto:bytendomods@gmail.com. Please read this README before messaging, this is a complex build.
+Build information for they Bytendo RLCD (Reflective Liquid Crystal Display) DMG display replacement kit. Interested in a kit? Email bytendomods@gmail.com. Please read this README before messaging, this is a complex build.
 
 ## What is it?
 
