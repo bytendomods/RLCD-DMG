@@ -1,6 +1,6 @@
 # RLCD-DMG
 
-Ordering and build information for they Bytendo RLCD (Reflective Liquid Crystal Display) DMG display replacement kit. The driver kit is only sold at the [Bytendo Ko-Fi](https://ko-fi.com/bytendo). Please read this README before purchasing.
+Build information for they Bytendo RLCD (Reflective Liquid Crystal Display) DMG display replacement kit. Interested in a kit? Email mailto:bytendomods@gmail.com. Please read this README before messaging, this is a complex build.
 
 ## What is it?
 
