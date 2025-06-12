@@ -6,7 +6,7 @@ Build information for they Bytendo RLCD (Reflective Liquid Crystal Display) DMG 
 
 The Bytendo RLCD DMG kit is an LCD replacement mod, designed to evoke the original Gameboy experience, but with a much faster pixel response. The RLCD is a 1-bit monochrome display from Sharp, which is similar to the one used in the Playdate console. The Gameboy LCD signal is captured using an RP2040, then integer scaled 2x and dithered to simulate the Gameboy's 2-bit greyscale. All this happens fast enough to ensure a 60Hz refresh rate with about 2 frames of lag, similar to IPS kits on the market.
 
-<p align="right">
+<p align="center">
 <img src="img/finished-build.jpg" width="400">
 <p\>
 
