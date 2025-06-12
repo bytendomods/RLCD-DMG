@@ -135,7 +135,7 @@ If all goes well, you should see the driver board show up as a mass storage devi
 
 ## How do I get it?
 
-At the moment I'll be making them to order, so you will have to register interest. To me this is more of an art project than a thing I'm selling. Visit [Bytendo Ko-Fi](https://ko-fi.com/bytendo). 
+At the moment I'll be making them to order, so you will have to register interest by emailing bytendomods@gmail.com. To me this is more of an art project than a thing I'm selling.
 
 # Attribution
 
