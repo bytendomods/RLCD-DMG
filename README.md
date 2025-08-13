@@ -25,7 +25,13 @@ The Bytendo RLCD DMG kit is an LCD replacement mod, designed to evoke the origin
 > * You must use an **aftermarket power board**, like the [DMGC PWR](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-PWR-01). These are difficult to build and require QFN soldering. At the moment you can buy one pre-built from [InsideGadgets](https://shop.insidegadgets.com/product/dmgc-power-board/)
 > * The install requires **shell modification**, similar to Q5 installs. Details below
 
-The RLCDs are currently available on [Aliexpress](https://www.aliexpress.com/item/1005006990424168.html?spm=a2g0o.productlist.main.5.4d197730mSHqFq&algo_pvid=dea5008d-0f81-494d-aab5-6f4624ba662d&algo_exp_id=dea5008d-0f81-494d-aab5-6f4624ba662d-2&pdp_npi=4%40dis%21USD%2132.92%2132.92%21%21%2132.92%2132.92%21%40211b813f17299659042513636eacc5%2112000038968470241%21sea%21CH%212760562420%21X&curPageLogUid=bwWWYRypVC4U&utparam-url=scene%3Asearch%7Cquery_from%3A) and I've also seen them on Ebay. They are extremely thin and liable to break if handled improperly. Please read the entire README to minimize risk.
+The RLCDs are the Sharp LS032B7DD01 and currently available in a few places. I've also tested the LS032B7DD02 version, which has the same specs as far as I can tell.
+
+* [Aliexpress](https://de.aliexpress.com/item/1005009008694292.html)
+* [DigiKey](https://www.digikey.ch/de/products/detail/sharp-microelectronics/LS032B7DD02/23349498?srsltid=AfmBOooQcHnELjIMMcwu3nnItdHuP2LxhT_YB8-7cn21ZRLlp7s8Sczg). Note this is the LS032B7DD02 panel.
+* [eBay](https://www.ebay.de/itm/315370509904)
+
+They are extremely thin and liable to break if handled improperly. Please read the entire README to minimize risk.
 
 > [!CAUTION]
 > One beta tester found that the panel they recieved didn't work with the stock firmware. With some experimenting, we found this particular panel only worked with a lower SPI clock speed. It's unclear how common this is, but so far it is workable.
