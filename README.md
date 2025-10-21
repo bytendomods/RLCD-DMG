@@ -112,15 +112,17 @@ The RLCD is extremely delicate, and the ribbon is easy to rip off. All of the pa
 * Bend the RLCD ribbon just enough to slide into the FPC on the driver board and secure the FPC lock.
 * Leave the plastic protection film on the front of the RLCD.
 
+> [!CAUTION]
+> The ribbon orientation is very important. If installed incorrectly and the console is turned on you could fry the driver board. Make sure the ribbon is contacts "down," facing the driver board, as shown in the pictures. The blue ribbon stiffner should be facing "up" away from the driver board. SUPER IMPORTANT.
+
 <p align="center">
 <img src="img/secured-ribbons.jpeg" width="300">
+<img src="img/hi-ribbon.jpeg" width="300">
 <p\>
 
 ## Testing the DMG connection
 
-With the RLCD panel and driver PCB mounted, it's time to test the connections.
-
-TODO: Image of the test setup
+With the RLCD panel and driver PCB mounted, it's time to test the connections. The ribbon from the driver inserts contacts "up" on the button board, for both Funnyplaying and Highspeedido. Before you turn on the console, just double check that the whole thing folds the way you expect, with the LCD facing the right way. Don't turn it on until you confirm you have the ribbon inserted correctly.
 
 The RLCD will show a bit of noise (random pixels) when it boots, then it will quickly clear and show a black frame. This means the driver board has booted and is running properly. If you don't quickly see the normal "Nintento" logo, that means the driver board isn't getting a clean GB LCD signal. Usually this is an issue with the 21 pin ribbon from the CPU to the button board. I've found they fail over time with repeated insertions, so be careful. Try reseating this ribbon cable first.
 
